@@ -1,0 +1,75 @@
+.note-form{
+    height: 70px;
+    width: 100%;
+    border: 0.5px solid #8088FF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.note-form:hover{
+    height: 70px;
+    width: 100%;
+    border: 1px solid #005aeb;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    transition: 0.5s all;
+}
+
+.inner-note-form{
+    padding: 7px 20px
+}
+
+.text-of-note{
+    font-size: 13px;
+    color: #949494;
+}
+
+.note-border-line{
+    margin-top: 5px;
+    border: 2px solid #8088FF;
+    border-radius: 5px;
+}
+
+.note-deadline{
+    font-size: 13px;
+    color: #8088FF;
+}
+
+.note-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.note-done-button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: inherit;
+    color: #03a800;
+}
+
+.note-delete-button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: inherit;
+    color: #c9000a;
+}
+
+.note-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rewrite-note{
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.5s
+}
+
+.rewrite-note-hidden{
+    display: none;
+}

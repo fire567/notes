@@ -1,0 +1,10 @@
+.notes-form{
+    margin-top: 30px;
+    width: 50vw;
+}
+
+@media screen and (max-width: 600px) {
+    .notes-form{
+        width: 80vw;
+    }
+}

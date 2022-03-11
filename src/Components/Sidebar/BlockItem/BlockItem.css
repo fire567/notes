@@ -1,0 +1,17 @@
+.sidebar-item-form{
+    height: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.sidebar-item-form:hover{
+    background-color: rgba(145, 145, 145, 1);
+    transition: 700ms;
+}
+
+.sidebar-item-label{
+    padding-left: 40px;
+}
